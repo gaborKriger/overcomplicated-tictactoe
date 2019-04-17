@@ -1,9 +1,7 @@
 package com.codecool.kriger.overcomplicatedtictactoe.controller;
 
-import com.codecool.kriger.overcomplicatedtictactoe.model.Comics;
-import com.codecool.kriger.overcomplicatedtictactoe.model.Joke;
-import com.codecool.kriger.overcomplicatedtictactoe.model.Player;
-import com.codecool.kriger.overcomplicatedtictactoe.model.TicTacToeGame;
+import com.codecool.kriger.overcomplicatedtictactoe.model.*;
+import com.codecool.kriger.overcomplicatedtictactoe.service.AvatarService;
 import com.codecool.kriger.overcomplicatedtictactoe.service.ComicsService;
 import com.codecool.kriger.overcomplicatedtictactoe.service.JokeService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +23,9 @@ public class GameController {
 
     @Autowired
     private ComicsService comicsService;
+
+    @Autowired
+    private AvatarService avatarService;
 
     @ModelAttribute("player")
     public Player getPlayer() {
@@ -50,7 +51,8 @@ public class GameController {
 
     @PostMapping(value = "/changeplayerusername")
     public String changPlayerUserName(@ModelAttribute Player player) {
-        System.out.println(player.getUserName());
+        Player currentPlayer = getPlayer();
+        currentPlayer.setUserName(player.getUserName());
         return "redirect:/game";
     }
 
@@ -64,12 +66,21 @@ public class GameController {
             model.addAttribute("funfact", "Chuck Norris found you to laughing on him, and destroyed the server! RUN!");
         }
 
-        ResponseEntity<Comics> comic = comicsService.getComic();
-        if (comic.getStatusCode().equals(HttpStatus.OK)){
-            model.addAttribute("comic_uri", comic.getBody().getImg());
+        ResponseEntity<Comics> comicsResponseEntity = comicsService.getComic();
+        if (comicsResponseEntity.getStatusCode().equals(HttpStatus.OK)){
+            model.addAttribute("comic_uri", comicsResponseEntity.getBody().getImg());
         }else{
             model.addAttribute("comic_uri", "http://www.tim-online.nl/blog/wp-content/uploads/2014/07/tv_error.png");
 
+        }
+
+        System.out.println(player.getUserName());
+
+        ResponseEntity<?> avatarUrl = avatarService.getAvatarUrl(player.getUserName());
+        if (avatarUrl.getStatusCode().equals(HttpStatus.OK)) {
+            model.addAttribute("avatar_uri" , avatarUrl.getBody());
+        } else {
+            model.addAttribute("avatar_uri", "https://robohash.org/codecool");
         }
 
         return "game";

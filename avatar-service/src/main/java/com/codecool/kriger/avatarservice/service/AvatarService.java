@@ -6,9 +6,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class AvatarService {
 
-    public String getAvatarUrl(Avatar avatar) {
+    public String getAvatarUrl(String username) {
+        Avatar avatar = new Avatar(username);
         String userName = avatar.getUsername();
-        System.out.println(userName);
         String url = "https://robohash.org/" + userName;
         return url;
     }

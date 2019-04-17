@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39f0525e-cded-4e0c-960b-a8ae3da5a83b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/controller/AvatarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/model/Avatar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/service/AvatarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/model/Avatar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/service/AvatarService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comics-service/src/main/java/com/codecool/kriger/comicsservice/service/ComicsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/comics-service/src/main/java/com/codecool/kriger/comicsservice/service/ComicsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/controller/AvatarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/controller/AvatarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/service/AvatarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/service/AvatarService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/model/Player.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/overcomplicatedtictactoe/target/" />
     <ignored path="$PROJECT_DIR$/funfact-service/target/" />
@@ -39,7 +34,7 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="html" value="3" />
-          <entry key="java" value="43" />
+          <entry key="java" value="59" />
           <entry key="md" value="1" />
           <entry key="properties" value="7" />
           <entry key="xml" value="2" />
@@ -48,7 +43,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="3" />
-          <entry key="JAVA" value="43" />
+          <entry key="JAVA" value="59" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="7" />
@@ -57,15 +52,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="590" />
+          <entry key="java" value="1538" />
           <entry key="properties" value="26" />
-          <entry key="txt" value="12" />
+          <entry key="txt" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="590" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="JAVA" value="1538" />
+          <entry key="PLAIN_TEXT" value="39" />
           <entry key="Properties" value="26" />
         </counts>
       </usages-collector>
@@ -77,93 +72,95 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.52723736">
+    <splitter split-orientation="horizontal" split-proportion="0.6257576">
       <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/model/Avatar.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
-                  <caret line="11" column="27" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="27" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/service/AvatarService.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/controller/AvatarController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="horizontal" split-proportion="0.50114155">
+          <split-first>
+            <leaf>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/service/AvatarService.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="336">
+                      <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+                      <folding>
+                        <element signature="imports" expanded="true" />
+                        <element signature="e#933#941#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/model/Avatar.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="108">
+                      <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+                      <folding>
+                        <element signature="imports" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/controller/AvatarController.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="252">
+                      <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+                      <folding>
+                        <element signature="imports" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/service/AvatarService.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state>
+                      <caret column="50" selection-start-column="50" selection-end-line="12" selection-end-column="19" />
+                      <folding>
+                        <element signature="imports" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/overcomplicatedtictactoe/src/main/resources/templates/game.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="52">
-                  <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/controller/GameController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="112">
-                  <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+                <state relative-caret-position="432">
+                  <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#1226#1227#0" expanded="true" />
                     <element signature="e#1261#1262#0" expanded="true" />
                     <element signature="e#1327#1328#0" expanded="true" />
                     <element signature="e#1369#1370#0" expanded="true" />
-                    <element signature="e#1439#1440#0" expanded="true" />
-                    <element signature="e#1493#1494#0" expanded="true" />
+                    <element signature="e#1363#1364#0" expanded="true" />
+                    <element signature="e#1417#1418#0" expanded="true" />
+                    <element signature="e#1590#1591#0" expanded="true" />
+                    <element signature="e#1622#1623#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/funfact-service/src/main/java/com/codecool/kriger/funfactservice/model/Joke.java">
+            <entry file="file://$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/model/Joke.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="96">
-                  <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/funfact-service/src/main/java/com/codecool/kriger/funfactservice/controller/JokeController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+                <state relative-caret-position="108">
+                  <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -172,10 +169,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/funfact-service/src/main/java/com/codecool/kriger/funfactservice/service/JokeService.java">
+            <entry file="file://$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/service/JokeService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="96">
-                  <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+                <state relative-caret-position="180">
+                  <caret line="15" selection-start-line="15" selection-end-line="15" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -229,12 +226,14 @@
         <option value="$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/service/ComicsService.java" />
         <option value="$PROJECT_DIR$/comics-service/src/main/java/com/codecool/kriger/comicsservice/service/ComicsService.java" />
         <option value="$PROJECT_DIR$/avatar-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/controller/GameController.java" />
         <option value="$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/model/Player.java" />
-        <option value="$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/model/Avatar.java" />
         <option value="$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/AvatarServiceApplication.java" />
+        <option value="$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/model/Avatar.java" />
         <option value="$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/service/AvatarService.java" />
         <option value="$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/controller/AvatarController.java" />
+        <option value="$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/controller/GameController.java" />
+        <option value="$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/model/Avatar.java" />
+        <option value="$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/service/AvatarService.java" />
       </list>
     </option>
   </component>
@@ -496,63 +495,26 @@
               <item name="avatar-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="overcomplicated-tictactoe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="funfact-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="overcomplicated-tictactoe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="funfact-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="overcomplicated-tictactoe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="funfact-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="overcomplicated-tictactoe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="funfact-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="overcomplicated-tictactoe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="funfact-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="funfactservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="overcomplicated-tictactoe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="funfact-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="funfactservice" type="462c0819:PsiDirectoryNode" />
+              <item name="avatarservice" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="overcomplicated-tictactoe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="funfact-service" type="462c0819:PsiDirectoryNode" />
+              <item name="avatar-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="funfactservice" type="462c0819:PsiDirectoryNode" />
+              <item name="avatarservice" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="overcomplicated-tictactoe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="funfact-service" type="462c0819:PsiDirectoryNode" />
+              <item name="avatar-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="funfactservice" type="462c0819:PsiDirectoryNode" />
+              <item name="avatarservice" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -584,6 +546,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="overcomplicatedtictactoe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="overcomplicated-tictactoe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="overcomplicatedtictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="overcomplicatedtictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="overcomplicated-tictactoe" type="b2602c69:ProjectViewProjectNode" />
@@ -632,7 +603,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555488780190" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555495285176" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -664,7 +635,7 @@
     </option>
     <option name="contentProportion" value="0.37770897" />
   </component>
-  <component name="RunManager" selected="Spring Boot.AvatarServiceApplication">
+  <component name="RunManager" selected="Spring Boot.OvercomplicatedtictactoeApplication">
     <configuration name="AvatarServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="avatar-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.codecool.kriger.avatarservice.AvatarServiceApplication" />
@@ -710,7 +681,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555480790210</updated>
-      <workItem from="1555480794748" duration="5927000" />
+      <workItem from="1555480794748" duration="11531000" />
     </task>
     <task id="LOCAL-00001" summary="joke">
       <created>1555483745906</created>
@@ -726,11 +697,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555484444177</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="avatar microservice">
+      <created>1555488815651</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555488815651</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5927000" />
+    <option name="totallyTimeSpent" value="11531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -742,14 +720,14 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22121212" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18712121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.3670473" />
+      <window_info anchor="bottom" id="Run Dashboard" weight="0.52202284" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" weight="0.32952693" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32952693" />
       <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -782,7 +760,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="joke" />
     <MESSAGE value="comics" />
-    <option name="LAST_COMMIT_MESSAGE" value="comics" />
+    <MESSAGE value="avatar microservice" />
+    <option name="LAST_COMMIT_MESSAGE" value="avatar microservice" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/overcomplicatedtictactoe/pom.xml">
@@ -934,49 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/overcomplicatedtictactoe/src/main/resources/templates/game.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/controller/GameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-            <element signature="e#1261#1262#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1493#1494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/model/Joke.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/service/JokeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/funfact-service/src/main/java/com/codecool/kriger/funfactservice/model/Joke.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -991,26 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/funfact-service/src/main/java/com/codecool/kriger/funfactservice/controller/JokeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/model/Avatar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1034,10 +950,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/funfact-service/src/main/java/com/codecool/kriger/funfactservice/controller/JokeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overcomplicatedtictactoe/src/main/resources/templates/game.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/model/Joke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/service/JokeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/service/AvatarService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/model/Avatar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1046,10 +1009,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/avatar-service/src/main/java/com/codecool/kriger/avatarservice/controller/AvatarController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+        <state relative-caret-position="252">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/model/Avatar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/controller/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1622#1623#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overcomplicatedtictactoe/src/main/java/com/codecool/kriger/overcomplicatedtictactoe/service/AvatarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#933#941#0" expanded="true" />
           </folding>
         </state>
       </provider>

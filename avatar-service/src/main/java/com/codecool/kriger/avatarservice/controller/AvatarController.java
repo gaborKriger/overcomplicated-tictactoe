@@ -15,8 +15,7 @@ public class AvatarController {
 
     @PostMapping("/")
     public ResponseEntity getUsername(@RequestBody Avatar avatar) {
-        String avatarUrl = avatarService.getAvatarUrl(avatar);
-        System.out.println(avatar.getUsername());
+        String avatarUrl = avatarService.getAvatarUrl(avatar.getUsername());
         return new ResponseEntity(avatarUrl, HttpStatus.OK);
     }
 }
