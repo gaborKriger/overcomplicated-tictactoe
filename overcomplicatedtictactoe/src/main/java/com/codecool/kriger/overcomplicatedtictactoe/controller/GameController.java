@@ -1,8 +1,10 @@
 package com.codecool.kriger.overcomplicatedtictactoe.controller;
 
+import com.codecool.kriger.overcomplicatedtictactoe.model.Comics;
 import com.codecool.kriger.overcomplicatedtictactoe.model.Joke;
 import com.codecool.kriger.overcomplicatedtictactoe.model.Player;
 import com.codecool.kriger.overcomplicatedtictactoe.model.TicTacToeGame;
+import com.codecool.kriger.overcomplicatedtictactoe.service.ComicsService;
 import com.codecool.kriger.overcomplicatedtictactoe.service.JokeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -20,6 +22,9 @@ public class GameController {
 
     @Autowired
     private JokeService jokeService;
+
+    @Autowired
+    private ComicsService comicsService;
 
     @ModelAttribute("player")
     public Player getPlayer() {
@@ -56,7 +61,14 @@ public class GameController {
             model.addAttribute("funfact", "Chuck Norris found you to laughing on him, and destroyed the server! RUN!");
         }
 
-        model.addAttribute("comic_uri", "http://www.tim-online.nl/blog/wp-content/uploads/2014/07/tv_error.png");
+        ResponseEntity<Comics> comic = comicsService.getComic();
+        if (comic.getStatusCode().equals(HttpStatus.OK)){
+            model.addAttribute("comic_uri", comic.getBody().getImg());
+            System.out.println(comic.getBody().getImg());
+        }else{
+            model.addAttribute("comic_uri", "http://www.tim-online.nl/blog/wp-content/uploads/2014/07/tv_error.png");
+
+        }
 
         return "game";
     }

@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/overcomplicatedtictactoe/pom.xml" />
         <option value="$PROJECT_DIR$/funfact-service/pom.xml" />
+        <option value="$PROJECT_DIR$/comics-service/pom.xml" />
       </list>
     </option>
   </component>
