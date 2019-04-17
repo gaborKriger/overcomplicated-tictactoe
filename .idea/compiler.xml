@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="avatar-service" />
         <module name="comics-service" />
         <module name="funfact-service" />
         <module name="overcomplicatedtictactoe" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="avatar-service" target="1.8" />
       <module name="comics-service" target="1.8" />
       <module name="funfact-service" target="1.8" />
       <module name="overcomplicatedtictactoe" target="1.8" />

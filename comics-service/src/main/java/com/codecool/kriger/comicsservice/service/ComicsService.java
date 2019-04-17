@@ -16,7 +16,6 @@ public class ComicsService {
     private Random myRandom = new Random();
 
     public int getRandomBetween(int min, int max){
-        System.out.println(myRandom.nextInt(min)+max);
         return myRandom.nextInt(min)+min;
     }
 

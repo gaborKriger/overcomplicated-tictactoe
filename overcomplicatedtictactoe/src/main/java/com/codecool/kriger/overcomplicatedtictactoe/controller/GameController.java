@@ -41,6 +41,8 @@ public class GameController {
         return "https://robohash.org/codecool";
     }
 
+
+
     @GetMapping(value = "/")
     public String welcomeView(@ModelAttribute Player player) {
         return "welcome";
@@ -48,6 +50,7 @@ public class GameController {
 
     @PostMapping(value = "/changeplayerusername")
     public String changPlayerUserName(@ModelAttribute Player player) {
+        System.out.println(player.getUserName());
         return "redirect:/game";
     }
 
@@ -64,7 +67,6 @@ public class GameController {
         ResponseEntity<Comics> comic = comicsService.getComic();
         if (comic.getStatusCode().equals(HttpStatus.OK)){
             model.addAttribute("comic_uri", comic.getBody().getImg());
-            System.out.println(comic.getBody().getImg());
         }else{
             model.addAttribute("comic_uri", "http://www.tim-online.nl/blog/wp-content/uploads/2014/07/tv_error.png");
 

@@ -1,4 +1,4 @@
-package com.codecool.kriger.overcomplicatedtictactoe.model;
+package com.codecool.kriger.avatarservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Player {
+public class Avatar {
 
-    private String userName = "Anonymous";
+    private String username;
 
 }
